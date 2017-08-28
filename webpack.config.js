@@ -1,7 +1,10 @@
+var webpack = require('webpack');
+var folder = __dirname;
+
 module.exports = {
-    entry: "./src/main.js",
-    ouput: {
-        path: "dist/assets",
+    entry: folder + "/main.js",
+    output: {
+        path: folder + "/dist/assets",
         filename: "bundle.js",
         sourceMapFilename: 'bundle.map'
     },
@@ -11,7 +14,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /(node_modules)/,
-                loader: ['babel-loader'],
+                loader: 'babel-loader',
                 query: {
                     presets: ['env', 'stage-0', 'react']
                 }

@@ -11,7 +11,7 @@ const data = [
         ],
         "steps": [
             "Preheat the over to 350 degrees.",
-            "Spread the olive oil around ta glass baking dish.",
+            "Spread the olive oil around the glass baking dish.",
             "Add the salmon, garlic, and pine nuts to the dish.",
             "Bake for 15 minutes.",
             "Add the yellow squash and put back in the oven for 30 mins.",

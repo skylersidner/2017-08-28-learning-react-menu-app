@@ -1,4 +1,5 @@
 import Ingredient from './ingredient'
+import './ingredientsList.css'
 
 const IngredientsList = ({ list }) =>
     <ul className="ingredients">

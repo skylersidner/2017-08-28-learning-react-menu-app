@@ -1,0 +1,7 @@
+.ingredient {
+    list-style-type: none;
+}
+
+.ingredient > span {
+    margin-right: 5px;
+}
